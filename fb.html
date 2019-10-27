@@ -1,6 +1,7 @@
 <html>
 
 <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
@@ -14,7 +15,22 @@
             font-size: 16px;
             cursor: pointer;
         }
-        
+        i {
+  
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 6px;
+ 
+}
+.Create
+{
+    cursor: pointer;
+}
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
 
         .navbar {
             border-bottom: 1px solid #ccc;
@@ -47,7 +63,7 @@
 
                 <li class="nav-item">
                     
-                    <a class="nav-link" style="color:white"><img src="pr2.jpg" height="22" width="22">Username</a>
+                    <a class="nav-link" style="color:white"><img src="propic.jpg" height="22" width="22">Username</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" style="color:white">Home</a>
@@ -69,7 +85,11 @@
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" style="color:white"><img src="qw3.jpg"height="32" width="32"></a>
+                </li>&nbsp;&nbsp;&nbsp; <li>
+                        <p><i class="down"></i></p>
                 </li>
+                
+
             </ul>
         </div>
     </nav>
@@ -80,6 +100,8 @@
             <div class="col-sm-3 m-1" style="background-color:white;">
                 <!--add feed -->
                 <ul type="none" style="cursor: pointer;">
+                    <li><img src="propic.jpg"height="32" width="32">Pavit Kalra</li>
+                    <br>
                     <li><img src="newsfeed.png" height="32"width="32">News Feed</li>
                     
                     <li><img src="messenger.jpg" height="32" width="32">Messenger</li>
@@ -108,8 +130,8 @@
                 </div>
                
             </div>
-            <div class="col-sm-4 m-1" style="background-color:white; text-align: center;">
-                <b>People you may know</b>
+            <div class="col-sm-4 m-1" style="background-color:white; ">
+                <b>Sponsored</b>  <p class="Create" style="color: blue; float:right">Create Ad</p>
             </div>
         </div>
     </div>
